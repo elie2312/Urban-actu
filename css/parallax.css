@@ -1,0 +1,186 @@
+/* partie css contenant tous les sélecteurs avec effet parallax*/
+
+
+
+.bg-img {
+  
+  background-image: url("../img/bg_header.jpg");
+
+  min-height: 880px;
+
+  /* Centré et fixé le background */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+
+}
+
+/* Positionne le contenu de la navbar à l'intérieur de l'image*/
+
+/* The navbar */
+.topnav {
+  display: flex;
+  
+  justify-content: center;
+  
+}
+
+/* Navbar liens */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+
+.parallax {
+  
+  background-image: url("https://www.udiscovermusic.com/wp-content/uploads/2020/02/Lil-Baby-Black-Vest.jpg");
+
+  
+  min-height: 100px; 
+
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.parallax2 {
+  
+  background-image: url("https://images4.alphacoders.com/102/thumb-1920-1026348.png");
+
+  
+  min-height: 800px; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  
+  background-image: url("bg_parallax.png");
+
+  
+  min-height: 300px; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.parallax3 {
+  
+  background-image: url("https://www.wallpapertip.com/wmimgs/41-414370_hd-hip-hop.png");
+
+  
+  min-height: 300px; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.hover_content
+{
+  margin-top: 10em;
+  margin-bottom: 35em;
+  width: 70%;
+}
+
+.hover_content2
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.hover_content3
+{
+  margin-top: 3em;
+  margin-bottom: 20em;
+  width: 70%;
+}
+
+
+
+/* mediaqueries pour tablette */
+ 
+@media screen and (max-width: 768px)
+{
+
+
+.bg-img {
+ 
+  background-image: url("../img/bg_header.jpg");
+
+  min-height: 550px;
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.parallax2 {
+  
+  background-image: url("https://images4.alphacoders.com/102/thumb-1920-1026348.png");
+
+  
+  min-height: 650px; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+}
